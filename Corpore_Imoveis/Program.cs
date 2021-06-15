@@ -16,6 +16,7 @@ namespace Corpore_Imoveis
         static string url = "http://agamenon.emgea.ativos:8051";
        
 
+
         static string usuario = "x000417";
         static string senha = "Brasil07";
         static int counter = 0;

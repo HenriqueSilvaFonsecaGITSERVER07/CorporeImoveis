@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CORPORE_IMO_SOAP" Class="ImoveisDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=AGAMENON;Initial Catalog=CORPORE_IMO_SOAP;Integrated Security=True" SettingsObjectName="Corpore_Imoveis.Properties.Settings" SettingsPropertyName="CORPORE_IMO_SOAPConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.XALGIMOVEL" Member="XALGIMOVELs">
+    <Type Name="XALGIMOVEL">
+      <Column Name="CODCOLIMOVEL" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CODIMOVEL" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IMOVELPROPRIO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="AREAPRIVATIVA" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="AREACOMUM" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="AREATOTAL" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="TIPOAREA" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="VALORCONDOMINIO" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="VALORLOCACAOSUGERIDO" Type="System.Decimal" DbType="Decimal(20,8)" CanBeNull="true" />
+      <Column Name="LOCALCHAVES" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ACEITANEGOCIACAO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="DATACADASTRO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VALORENCARGOS" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="CEP" Type="System.String" DbType="Char(9)" CanBeNull="true" />
+      <Column Name="TIPOLOGRADOURO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="LOGRADOURO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COMPLEMENTO" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="NUMERO" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="BAIRRO" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="MUNICIPIO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ESTADO" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="PAIS" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="RECCREATEDBY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECCREATEDON" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RECMODIFIEDBY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECMODIFIEDON" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TIPOENDERECO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="SITUACAOIMOVEL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DESCIMOVEL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="HISTSITUACAOIMOVEL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CODCCUSTO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="CODCOLCCUSTO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PERCENTPARTADM" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="CONTROLADOM2" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="TIPOLOCACAOAREA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="METROQUADRADOLOCADO" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="METROQUADRADODISPONIVEL" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="METROQUADRADOLOCAVEL" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="METROQUADRADORESERVADO" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="CODCARTORIO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODCOLPREFEITURA" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="CODPREFEITURA" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="CODREGIAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODTIPOIMOVEL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LOCALIZACAO" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="REGULARIZADO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="DATAAQUISICAO" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CODCOLITEMCONTABIL" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="IDITEMCONTABIL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODCOLCLASSEVALOR" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="IDCLASSEVALOR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="INTEGRACAOPORTAIS" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="OBSERVACAO" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="COD_TIPO_IMOVEL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

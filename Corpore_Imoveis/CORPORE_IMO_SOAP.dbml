@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CORPORE_IMO_SOAP" Class="CORPORE_IMO_SOAPDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=AGAMENON;Initial Catalog=CORPORE_IMO_SOAP;Integrated Security=True" SettingsObjectName="Corpore_Imoveis.Properties.Settings" SettingsPropertyName="CORPORE_IMO_SOAPConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.XDESPESA" Member="XDESPESAs">
+    <Type Name="XDESPESA">
+      <Column Name="CODCOLIGADA" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CODDESPESA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DESCDESPESA" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ORIGEM" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="CODPARAMMVTO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CODTIPODESPESA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NUMPARCELA" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="PERMITEREEMBOLSO" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="CODREGRAREEMBOLSO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NUMPARCELAREEMBOLSO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="CODCOLCFO" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="CODCFO" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="RECCREATEDBY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECCREATEDON" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="RECMODIFIEDBY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECMODIFIEDON" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CODIMOVEL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDINSCRICAOMUNICIPAL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COMPETENCIA" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="NUMERODOCUMENTO" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="VALORAVISTA" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="VALORAPRAZO" Type="System.Decimal" DbType="Decimal(15,4)" CanBeNull="true" />
+      <Column Name="PRIMEIROVENCIMENTO" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="INTERVALODIAS" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="TIPOVALORDESPESA" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="TIPOVALORREEMBOLSO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="IDPARAMFIN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COD_PESS_EMPR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NUM_UNID" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="NUM_SUB_UNID" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="INTERVALODIASREEMBOLSO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ANOEXERCICIO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODSEGURO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRIMEIROVCTOREEMBOLSO" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="PERIODICIDADE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PERIODICIDADEREEMBOLSO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

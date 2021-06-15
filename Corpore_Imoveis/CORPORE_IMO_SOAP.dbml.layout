@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.125" name="CORPORE_IMO_SOAP">
+  <DataContextMoniker Name="/CORPORE_IMO_SOAPDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a3fe2426-61f2-4677-8346-5d3c0c5232e1" absoluteBounds="5.625, 3, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/CORPORE_IMO_SOAPDataContext/XDESPESA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="114f88dc-779b-489e-8ffa-5251c96e494f" absoluteBounds="5.64, 3.46, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bb750f18-870c-431f-82b2-16fc112e18cf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://agamenon.emgea.ativos:8051/wsDataServer/MEX?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wsDataServer.wsdl" MetadataType="Wsdl" ID="fdc7f0c7-ba35-40fc-af29-628965bb21a7" SourceId="1" SourceUrl="http://agamenon.emgea.ativos:8051/wsDataServer/MEX?wsdl" />
+    <MetadataFile FileName="mex.xsd" MetadataType="Schema" ID="0a99e703-4f6a-4d6a-9228-fae10be79eda" SourceId="1" SourceUrl="http://agamenon.emgea.ativos:8051/wsDataServer/mex?xsd=xsd0" />
+    <MetadataFile FileName="mex1.xsd" MetadataType="Schema" ID="71358399-6f97-4a45-9587-344ff26672ad" SourceId="1" SourceUrl="http://agamenon.emgea.ativos:8051/wsDataServer/mex?xsd=xsd3" />
+    <MetadataFile FileName="mex2.xsd" MetadataType="Schema" ID="daa5835d-ed54-4bc5-8513-d80428cf1d3c" SourceId="1" SourceUrl="http://agamenon.emgea.ativos:8051/wsDataServer/mex?xsd=xsd1" />
+    <MetadataFile FileName="mex3.xsd" MetadataType="Schema" ID="6ae64ebc-a7b3-49e8-b5d6-c143add5a6fc" SourceId="1" SourceUrl="http://agamenon.emgea.ativos:8051/wsDataServer/mex?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
